@@ -1,0 +1,12 @@
+{
+  "summary": {
+    "title": "Test Threat Model",
+    "owner": "Victor Romero Mendez",
+    "description": "This is a test to figure out how DragonTM defines the Threat Model domain"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [],
+    "reviewer": "Victor Romero Mendez"
+  }
+}
