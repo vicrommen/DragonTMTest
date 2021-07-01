@@ -10,7 +10,237 @@
       {
         "title": "Diagram 1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 527,
+                "y": 207
+              },
+              "angle": 0,
+              "id": "72b99c5d-18c0-4712-b6e0-cf7f80fa94df",
+              "z": 1,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "process 0"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 210,
+                "y": 374
+              },
+              "angle": 0,
+              "id": "d43bd3f3-858c-4609-9854-665265f3fca6",
+              "z": 2,
+              "hasOpenThreats": false,
+              "outOfScope": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isOutOfScope"
+                },
+                "text": {
+                  "text": "DB2"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 286,
+                "y": 173
+              },
+              "angle": 0,
+              "id": "34ed70bf-6dfa-40f4-b77b-aff8de15de42",
+              "z": 3,
+              "hasOpenThreats": false,
+              "isEncrypted": true,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "DB1"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1116,
+                "y": 380
+              },
+              "angle": 0,
+              "id": "950acfa5-a662-40bb-ad4a-64a401c55701",
+              "z": 4,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 3"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 1061,
+                "y": 112
+              },
+              "angle": 0,
+              "id": "46772fb0-16ce-4846-b121-e2040af9c1b8",
+              "z": 5,
+              "hasOpenThreats": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "title": "Threat1",
+                  "type": "Repudiation",
+                  "description": "This is the description",
+                  "mitigation": "What I am supposed to write right here"
+                },
+                {
+                  "status": "Mitigated",
+                  "severity": "Low",
+                  "title": "Threat2",
+                  "type": "Repudiation",
+                  "description": "Description of threat 4",
+                  "mitigation": "I guess this should be a description of the countermeassures"
+                }
+              ],
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "actor 4"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "72b99c5d-18c0-4712-b6e0-cf7f80fa94df"
+              },
+              "target": {
+                "id": "46772fb0-16ce-4846-b121-e2040af9c1b8"
+              },
+              "vertices": [
+                {
+                  "x": 632,
+                  "y": 198
+                },
+                {
+                  "x": 822,
+                  "y": 28
+                }
+              ],
+              "id": "93fb52c4-3ccc-4830-8455-67bab6c1f750",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "flow 6",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 7,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 456,
+                "y": 6
+              },
+              "target": {
+                "x": 384,
+                "y": 554
+              },
+              "vertices": [
+                {
+                  "x": 852,
+                  "y": 245
+                },
+                {
+                  "x": 756,
+                  "y": 359
+                },
+                {
+                  "x": 515,
+                  "y": 489
+                }
+              ],
+              "id": "46d6089c-706f-41f4-910b-a96752685d29",
+              "z": 8,
+              "attrs": {}
+            }
+          ]
+        },
+        "size": {
+          "height": 594.6912231445312,
+          "width": 1299
+        }
       }
     ],
     "reviewer": "Victor Romero Mendez"
