@@ -40,86 +40,6 @@
               }
             },
             {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 210,
-                "y": 374
-              },
-              "angle": 0,
-              "id": "d43bd3f3-858c-4609-9854-665265f3fca6",
-              "z": 2,
-              "hasOpenThreats": false,
-              "outOfScope": true,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isOutOfScope"
-                },
-                "text": {
-                  "text": "DB2"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Store",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 286,
-                "y": 173
-              },
-              "angle": 0,
-              "id": "34ed70bf-6dfa-40f4-b77b-aff8de15de42",
-              "z": 3,
-              "hasOpenThreats": false,
-              "isEncrypted": true,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "DB1"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
-              "type": "tm.Actor",
-              "size": {
-                "width": 160,
-                "height": 80
-              },
-              "position": {
-                "x": 1116,
-                "y": 380
-              },
-              "angle": 0,
-              "id": "950acfa5-a662-40bb-ad4a-64a401c55701",
-              "z": 4,
-              "hasOpenThreats": false,
-              "attrs": {
-                ".element-shape": {
-                  "class": "element-shape hasNoOpenThreats isInScope"
-                },
-                "text": {
-                  "text": "actor 3"
-                },
-                ".element-text": {
-                  "class": "element-text hasNoOpenThreats isInScope"
-                }
-              }
-            },
-            {
               "type": "tm.Actor",
               "size": {
                 "width": 160,
@@ -221,6 +141,10 @@
                 {
                   "x": 852,
                   "y": 245
+                },
+                {
+                  "x": 866,
+                  "y": 351
                 },
                 {
                   "x": 756,
